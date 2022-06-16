@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  background-color: #2b283a;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  max-width: 317px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+
+  
+}
+
+.main-content{
+  margin: 0;
+  padding: 0%;
+  background-color: #1a1b2a;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.profile-pic{
+  margin: 0;
+  padding: 0%;
+  width:317px;
+  height: 317px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.name,.job,.website{
+  padding: 5px;
+  margin: 0;
+}
+
+.job{
+  color : #f3bf99;
+}
+
+.more-info{
+  max-width: 350px;
+  display: inline-block;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  margin: 0px;
+  
+}
+
+.more-info > h3, p{
+  align-items: left;
+  justify-content: left;
+}
+
+
+.handles{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.links{
+  float: left;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161619;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+
+.footer-images{
+  margin:7px ;
+}
